@@ -3,7 +3,7 @@
 This application contains following files
 --------------------------------------------------------
 --> server.c - C code file for server
---> server.h - header file for server 
+--> server.h - header file for server
 --> client.c - C code file for client
 --> credentials.txt - contains login credentials (trader id, user name, password)
 --> makefile - for compiling client and server code.
@@ -11,21 +11,21 @@ This application contains following files
 
 Compiling files
 --------------------------------------------------------
-For Server ::::::::
-make server
+Server:
+     make server
 
-For Client ::::::::
-make client
+Client:
+     make client
 
 Executing 
 --------------------------------------------------------
-For Server ::::::::
+Running Server:
 ./server <SERVER PORT NUMBER>
 
-For Client ::::::::
+Running Client ::::::::
 ./client <Server IP Address> <SERVER PORT NUMBER>
 
----->use a port number greater than or equal to 1024
+----> use a port number greater than or equal to 1024
 
 ********************************************************
 
