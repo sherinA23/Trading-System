@@ -5,21 +5,21 @@ A Client-Server based Trading System application, developed using socket program
 Compiling files
 --------------------------------------------------------
 **Server:**
->*$ make server*
-Creates an executable with the name  "server"
+```$ make server```
+>Creates an executable with the name  "server"
     
 **Client:**
->*$ make client*
-Creates an executable with the name "client"
+```$ make client```
+>Creates an executable with the name "client"
 
 Executing 
 --------------------------------------------------------
 **Running Server:**
->*$ ./server \<SERVER PORT NUMBER>*
-Use port numner >= 1024
+```$ ./server \<SERVER PORT NUMBER>```
+>Use port numner >= 1024
 
-**Running Client: **
->*$ ./client \<Server IP Address> \<SERVER PORT NUMBER>*
+**Running Client:**
+```$ ./client \<Server IP Address> \<SERVER PORT NUMBER>```
 
 ********************************************************
 - Credential verification: Typed username and passwords are first verified using the credential.txt file
